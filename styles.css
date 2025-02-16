@@ -115,17 +115,6 @@ embed {
     margin-bottom: 50px;
 }
 
-/* スマホ対応用 */
-@media (max-width: 1400px) {
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav ul li {
-        margin-bottom: 5px;
-        font-size:5px;
-    }
-}
 
 /* カタログボタン */
 .fixed-button {
