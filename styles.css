@@ -116,7 +116,7 @@ embed {
 }
 
 /* スマホ対応用 */
-@media (max-width: 900px) {
+@media (max-width: 1400px) {
     nav ul {
         flex-direction: column;
     }
