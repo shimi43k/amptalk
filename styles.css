@@ -86,11 +86,18 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* PDF*/
-embed {
-    width: 80%;
-    height: 500px;
+/*他サービスPDF*/
+.otherservices{
+    background-color: rgb(234, 232, 232);
+    padding:20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
     border-radius: 10px;
+}
+
+.otherservices:hover {
+    background-color: rgb(199, 199, 200);
 }
 
 /* 考案者*/
