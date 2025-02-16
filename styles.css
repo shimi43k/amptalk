@@ -124,7 +124,7 @@ embed {
     section {
         width: 100%;
     }
-    ul li{
+    nav ul li{
         font-size: 5px;
     }
 }
