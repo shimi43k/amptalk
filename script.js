@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function checkPassword() {
         const passwordInput = document.getElementById("password-input").value;
-        const correctPassword = "shimi43"; // 正しいパスワード
+        const correctPassword = "43"; // 正しいパスワード
 
         if (passwordInput === correctPassword) {
             document.getElementById("password-overlay").style.display = "none";
