@@ -67,6 +67,7 @@ main {
 /* 各セクションのデザイン */
 section {
     padding: 40px 20px;
+    width:100%;
     max-width: 100%;
     margin: 0 auto;
     background: white;
