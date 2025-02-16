@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+/* ヘッダー固定*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(43, 124, 245);
+    padding: 20px 0;
+    z-index: 10;  /*重なりあっても上に表示*/
+}
+
+/* ナビゲーションボタン */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* メインコンテンツ */
+main {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* サービス概要 */
+.overview {
+    background-color: rgb(43, 124, 245);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.overview h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.overview p {
+    font-size: 15px;
+}
+
+/* 各セクションのデザイン */
+section {
+    padding: 40px 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px; /*角丸く*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* 営業課題*/
+ul {
+    display: inline-block;
+    text-align: left;    
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* PDF*/
+embed {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 考案者*/
+.author {
+    text-align: center;
+}
+
+.author-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/*メインサービス*/
+.main-service {
+    text-align: center;
+}
+
+.mainservice-photo {
+    width: 900px;
+    height: 500px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+/* スマホ対応用 */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin-bottom: 5px;
+    }
+}
+
+/* カタログボタン */
+.fixed-button {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    background-color: rgb(43, 124, 245);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-button:hover {
+    background-color: rgb(10, 87, 202);
+}
+
+/* パスワード入力用のオーバーレイ */
+.password-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.password-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
