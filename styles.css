@@ -116,6 +116,12 @@ embed {
     margin-bottom: 50px;
 }
 
+/* スマホ対応用 */
+@media (max-width: 700px) {
+    section {
+        width: 100%;
+    }
+}
 
 /* カタログボタン */
 .fixed-button {
