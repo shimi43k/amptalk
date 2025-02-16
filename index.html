@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!--下記スマホ・タブレット対応用-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--文字スマホの大きさに、画面の幅に合わせて表示、初期ズーム等倍-->
+
+    <title>清水考案・営業支援ツール</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="password-overlay" id="password-overlay">
+        <div class="password-box">
+            <p>パスワードを入力してください</p>
+            <input type="password" id="password-input">
+            <button id="password-submit">送信</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#overview">今回紹介するサービス</a></li>
+                <li><a href="#challenges">営業の課題</a></li>
+                <li><a href="#mainservice">新サービスのアイデア</a></li>
+                <li><a href="#ideas">その他のアイデア</a></li>
+                <li><a href="#author">考案者</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="overview">
+            <h1>AI搭載営業支援ツール<br>「amptalk retain(仮)」「amptalk match(仮)」</h1>
+            <p>営業DXで営業効率を向上！AIが営業活動の様々な要因を分析して、最適なアプローチを提案。<br>
+                適切なフォローで既存顧客を守り、新規顧客獲得を増やす攻めの営業を支援します。
+            </p>
+        </section>
+
+        <section id="challenges" class="challenges">
+            <h2>こんな営業の課題はありませんか？</h2>
+            <ul>
+                <li>顧客の満足度が低い</li>
+                <li>CSアンケートをしたままフォローができていない</li>
+                <li>気付いた時には既に解約を決めている</li>
+                <li>競合他社に乗り換えられてしまった</li>
+            </ul>
+            <ul>
+                <li>取引先の担当とうまくいっていない</li>
+                <li>部下をどの顧客に割り当てるべきかわからない</li>
+                <li>顧客満足度を向上させたい</li>
+                <li>顧客の心を掴める営業がしたい</li>
+            
+            </ul>
+        </section>
+
+        <section id="mainservice" class="mainservice-section">
+            <h2>サービスの解約をAIが検知して阻止！<br>「amptalk retain(仮称)」</h2>
+            <h4>顧客の離脱サインを見つけて適切なフォローを提案</h4>
+            <img src="mainservice1.JPG" class="mainservice-photo">
+
+            <h2>営業と顧客の相性をAIが判定！<br>「amptalk match(仮称)」</h2>
+            <h4>取引先にマッチする営業担当をアサイン<br>
+                顧客にあった営業スタイルをAIが提案
+            </h4>
+            <img src="mainservice2.JPG" class="mainservice-photo">
+
+        </section>
+
+        <section id="ideas" class="ideas">
+            <h2>その他のサービスアイデア</h2>
+            <embed src="newsales-whitepaper.pdf" type="application/pdf" width="100%" height="500px">
+        </section>
+
+        <section id="author" class="author">
+            <h2>考案者</h2>
+            <img src="profile.JPG" class="author-photo">
+            <p><strong>清水康平</strong></p>
+            <p>生年月日：1995年4月3日<br>出身地：京都</p>
+            <p>日本で2年半ITの営業とプリセールスをし、メキシコにて2年営業とコンサルティング、1年間新製品開発を担当。<br>
+                英語、スペイン語、中国語の3か国語と並外れた好奇心を活かし様々な環境に適応可能。<br>
+                現在プログラミングも学習しており、本ウェブサイトも学習の一環として構築。<br>
+                2025年に日本に帰国し、ITとAIを駆使して営業にイノベーションを起こせるよう邁進中。</p>
+        </section>
+    </main>
+
+    <!-- 右下固定のボタン -->
+    <a href="amptalkretain-whitepaper.pdf" class="fixed-button" target="_blank">製品資料はこちら</a>
+
+</body>
+</html>
