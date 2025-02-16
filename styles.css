@@ -117,12 +117,15 @@ embed {
 }
 
 /* スマホ対応用 */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .mainservice-photo{
         width:100%;
     }
     section {
         width: 100%;
+    }
+    ul li{
+        font-size: 5px;
     }
 }
 
